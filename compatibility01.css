@@ -1,0 +1,16 @@
+table{
+	border-collapse: collapse;
+	border: 1px solid blue;
+}
+th,
+td{
+	border: 1px solid black;
+}
+table.b{
+	table-layout: fixed;
+	width: 150px;
+}
+table.c{
+	table-layout: auto;
+	width: 85%;
+}

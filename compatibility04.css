@@ -1,0 +1,20 @@
+body,
+html{
+	height: 100%;
+}
+.hero-image{
+	background-image: linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.vox-cdn.com%2Fuploads%2Fchorus_asset%2Ffile%2F22719177%2FAston_Martin_Valhalla_05.jpg&imgrefurl=https%3A%2F%2Fwww.theverge.com%2F2021%2F7%2F15%2F22578032%2Faston-martin-valhalla-supercar-specs-photos-f1&tbnid=PH0FvtBHxewtaM&vet=12ahUKEwjV7aT564b4AhWSgmMGHe_GC08QMygDegUIARDdAQ..i&docid=WwCgR1SQqVsHjM&w=2400&h=1601&q=aston%20martin&ved=2ahUKEwjV7aT564b4AhWSgmMGHe_GC08QMygDegUIARDdAQ.jpg")
+	height: 50%;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: transverse(-50%, -50%);
+	color: white;
+}
